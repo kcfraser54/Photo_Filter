@@ -1,0 +1,50 @@
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+
+<h1> Photo Filter </h1>
+
+<canvas id="canvas1">
+</canvas>
+
+<p>
+<input type="file" 
+       id="input1"
+       multiple="false"
+       accept="image/*"
+       onchange="loadPhoto()">
+</p>
+<p>
+<input type="button"
+       id="button1"
+       value="Grayscale"
+       onclick="makeGray()">  
+
+<input type="button"
+       id="button2"
+       value="Red"
+       onclick="makeRed()">  
+
+<input type="button"
+       id="button3"
+       value="Rainbow"
+       onclick="makeRainbow()">  
+  
+<input type="button"
+       id="blurbutton"
+       value="Blur"
+       onclick="makeBlur()">
+</p>
+<p>
+<input type="button"
+       id="button4"
+       value="Photo Reset"
+       onclick="reset()">
+</p>  
+
+<input type="button"
+       id="button4"
+       value="Clear"
+       onclick="clearCanvas()">
+</p>  
+ 
