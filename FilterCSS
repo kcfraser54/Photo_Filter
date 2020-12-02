@@ -1,0 +1,31 @@
+h1{
+  font-size:16pt; 
+  text-align:center;
+  color:DarkSlateBlue; 
+  border-top:DarkViolet;
+  border-top-style:dotted;
+  border-right:DarkViolet;
+  border-right-style:dotted;
+  border-left:DarkViolet;
+  border-left-style:dotted;
+  border-bottom:DarkViolet;
+  border-bottom-style:dotted;
+  padding-left:5px;
+  padding-right:5px;  
+}
+
+body{  
+  margin:25px;
+  background-color:SlateGrey; 
+}
+
+canvas{  
+  width:200px;
+  height:200px;
+  border:1px solid Red;  
+}
+
+input{ 
+  color:SteelBlue;    
+}
+
